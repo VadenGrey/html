@@ -1,0 +1,54 @@
+head {
+    text-align: center;
+}
+
+header {
+    text-align: center;
+}
+
+body {
+    background-color:darkgray;
+}
+
+main {
+    text-align: center;
+    font-size: large;
+    background-color: dimgray;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+p {
+    font-size: large;
+}
+
+.card {
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;
+}
+
+
+
+footer {
+    text-align: center;
+    background-color:dimgray;
+    margin: 30px auto;
+    border-radius: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
