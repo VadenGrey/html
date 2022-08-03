@@ -26,6 +26,7 @@ p {
 .card {
     margin: 20px;
     padding: 20px;
+    max-width: 30%;
     display: inline-block;
     background-color: darkgray;
     border-radius: 25px;
