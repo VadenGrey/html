@@ -21,6 +21,10 @@ button {
       100%{background-position:0% 50%}
   }
 
+.input {
+    width: 200px;
+}
+
 body {
     background-color:darkgray;
     text-align: center;

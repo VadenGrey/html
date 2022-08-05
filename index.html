@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-<!-- make a "givaway sweepstakes button" -->
+<!-- make a money printer -->
 
 <head>
 
@@ -20,12 +20,23 @@
 
 </header>
 
-<p class="jsopening">Hello! <u><script src="script.js"></script></u>, welcome to Best Website™ you can read what we are about on our page or enter in our <b>FREE IPHONE 5 GIVEAWAY!</b> by clicking the button below, Thankyou!</p>
+<body>
 
-<button id="button" onclick="buttonclick()"><b>ENTER IN GIVEAWAY!</b></button> 
-<br>
+    <p class="jsopening">Hello! <u><script src="script.js"></script></u>, welcome to Best Website™ you can read what we are about on our page and use the Money Printer™ while you're at it or enter in our <b>FREE IPHONE 5 GIVEAWAY!</b> by clicking the button below, Thankyou! <br>
 
+    <button id="button" onclick="buttonclick()"><b>ENTER IN GIVEAWAY!</b></button> 
+    <br>
+    <br>
 
+    <b>Money Printer™:</b> <br>
+    <input class="input" type="text" id="formInput" placeholder="How many monies you want?">
+    <input class="submit" type="submit" id="formSubmit" onclick="printMoney()" value="Print!">
+    <!-- <input class="submit" type="submit" id="burn" onclick="burnMoney()" value="Burn!"> -->
+    <br>
+    </p>
+    <p id="monies"></p>
+
+</body>
 
 <main>
 
