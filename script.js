@@ -3,6 +3,7 @@
 
 
 // welcoming prompts
+function x() {
 let nameUser = prompt('Welcome to a webpage what is your name?');
 alert('Prepare to guess ' + nameUser);
 
@@ -71,6 +72,8 @@ for (let i = 0; i < 6; i++) {
 }
 
 alert('The correct answers are ' + answer[5] + ', In total you got ' + c + ' out of 7 correct');
+}
+x();
 
 
 
