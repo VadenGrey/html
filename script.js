@@ -13,7 +13,7 @@ let questions = [
 'Do I like older cars? y/n',
 'Is the ARMY the best branch of service? y/n',
 'Do I love sweet Rock\'n\'Roll? y/n',
-'Im thinking of a number between 1-10, guess'
+'Im thinking of a number between 0-10, guess'
 ]
 
 //Array for answers
@@ -26,8 +26,7 @@ let answer = [
 ['team fortress 2', 'rimworld', 'ultrakill'],
 ]
 
-// //loop going through the questions
-
+// loop going through the questions
 let c = 0
 for (let i = 0; i < 5; i++) {
     let guess = prompt(questions[i]);
@@ -39,7 +38,7 @@ for (let i = 0; i < 5; i++) {
     }
 }
 
-// //random number guess question
+//random number guess question
 let x = Math.round(Math.random() * 10);
 for (let i = 0; i < 4; i++) {
     let numGuess = prompt(questions[5]);
@@ -57,20 +56,21 @@ for (let i = 0; i < 4; i++) {
     }
 }
 
+//Guessing game code
+loopMain:
+for (let i = 0; i < 6; i++) {
+    let gameGuess = prompt('What is one of my favorite games?');
+    for (let j = 0; j < 3; j++) {
+        if (gameGuess === answer[5][j]) {
+          alert('Correct!, all answers are ' + answer[5]);
+          c++;
+          break loopMain;
+        }
+    }
+    alert('You have ' + (5 - i) + ' tries left');
+}
 
-
-// Game guessing code
-// for (let i = 0; i < 6; i++) {
-//     let gameGuess = prompt('What is one of my favorite games?');
-//     for (let x of answer[5]) {
-//         if (gameGuess.toLowerCase() === x) {
-//             alert('Correct!, all answers are ' + answer[5]);
-//             c++
-//             break;
-//         }
-//     }
-// }   alert('Incorrect you have ' + (4 - i) + ' tries left');
-
+alert('The correct answers are ' + answer[5] + ', In total you got ' + c + ' out of 7 correct');
 
 
 
@@ -134,21 +134,3 @@ for (let i = 0; i < 4; i++) {
 // }
 
 // let farewell = alert('Guessing game complete, nice job ' + name + ', enjoy the website now');
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
