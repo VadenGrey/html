@@ -23,22 +23,23 @@ let answer = [
 'y',
 'y',
 'y',
+['team fortress 2', 'rimworld', 'ultrakill'],
 ]
 
-//loop going through the questions
+// //loop going through the questions
 
 let c = 0
 for (let i = 0; i < 5; i++) {
-let guess = prompt(questions[i]);
-if (guess == answer[i]) {
-alert('correct');
-c++
-} else {
-alert('Incorrect');
-}
+    let guess = prompt(questions[i]);
+        if (guess == answer[i]) {
+            alert('correct');
+            c++
+        } else {
+            alert('Incorrect');
+    }
 }
 
-//random number guess question
+// //random number guess question
 let x = Math.round(Math.random() * 10);
 for (let i = 0; i < 4; i++) {
     let numGuess = prompt(questions[5]);
@@ -56,7 +57,21 @@ for (let i = 0; i < 4; i++) {
     }
 }
 
-alert('You got ' + c + ' out of 7 answers correct');
+
+
+// Game guessing code
+// for (let i = 0; i < 6; i++) {
+//     let gameGuess = prompt('What is one of my favorite games?');
+//     for (let x of answer[5]) {
+//         if (gameGuess.toLowerCase() === x) {
+//             alert('Correct!, all answers are ' + answer[5]);
+//             c++
+//             break;
+//         }
+//     }
+// }   alert('Incorrect you have ' + (4 - i) + ' tries left');
+
+
 
 
 
