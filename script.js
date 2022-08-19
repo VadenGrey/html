@@ -76,7 +76,7 @@ alert('The correct answers are ' + answer[5] + ', In total you got ' + c + ' out
 
 
 
-//old code
+//V1 code
 
 // let name = prompt("What is your name?");
 // alert("Welcome to my website " + name + ", prepare to guess");

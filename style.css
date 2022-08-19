@@ -1,28 +1,21 @@
 body {
     text-align: center;
     color: antiquewhite;
-    background-color: midnightblue;
+    background-color: darkslategray;
 }
 
-p {
-    margin: 5%;
+.heading {
+    background-color: #5E5E5E;
+    margin: 0px 5%;
+}
+
+.block {
     background-color: dimgray;
-    text-align: center;
-    border-radius: 25px;
-}
-
-h1 {
-    background-color: dimgray;
-    border-radius: 25px;
+    border-radius: 15px;
+    margin: 0% 10% ;
+    padding: 0.2% 0.2%;
 
 }
-
-h2 {
-    background-color: dimgray;
-    border-radius: 25px;
-
-}
-
 
 
 
